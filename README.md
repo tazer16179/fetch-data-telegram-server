@@ -10,7 +10,6 @@ npm install
  ```
 
  ## Главное 
- ___
  После установки серверной части в файле [config.js](https://github.com/tazer16179/fetch-data-telegram-server/blob/main/config/config.json) не забудьте вставить chat_id и token вашего телеграм бота. 
 
 ## Использование 
