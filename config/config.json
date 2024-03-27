@@ -1,7 +1,6 @@
-
 {
-    "telegram": {
-      "token": "telegram-token",
-      "chat": "chat_id"
-    }
-  }
+	"telegram": {
+		"token": "5554418382:AAFCV_1AUIhi51aETkQ4-DJGoHi7IdQYV6Q",
+		"chat": "1053404914"
+	}
+}

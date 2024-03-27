@@ -8,8 +8,7 @@ module.exports.sendMsg = (req, res) => {
     let fields = [
         '<b>Name</b>: ' + reqBody.name,
         '<b>Email</b>: ' + reqBody.email,
-        '<b>Phone</b>: ' + reqBody.phone,
-        '<b>Description</b>: ' + reqBody.description,
+        '<b>Phone</b>: ' + reqBody.phone
     ];
     let msg = '';
     //проходимся по массиву и склеиваем все в одну строку
@@ -29,7 +28,7 @@ module.exports.sendMsg = (req, res) => {
             if (response.statusCode === 200) {
                 res.status(200).json({
                     status: 'ok',
-                    message: 'Успешно отправлено!',
+                    message: 'Заявка успешно отправлена! Ожидайте звонка.',
                 });
             }
             if (response.statusCode !== 200) {
