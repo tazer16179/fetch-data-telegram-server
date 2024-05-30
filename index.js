@@ -6,7 +6,7 @@ const app = express();
 const https = require('https');
 const fs = require('fs');
 const session = require('express-session');
-const config = require('../config/config.json');
+const config = require('./config/config.json');
 
 app.use(cors());
 app.use(express.json());
